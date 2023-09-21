@@ -1,0 +1,268 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+/*-- Nav --*/
+
+.navbar {
+    height: 100px;
+    background-color: #3f4349;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.479);
+    display: inline;
+    padding-right: 10px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-brand {
+
+    color: white;
+}
+
+#Tickets {
+
+    color: rgb(42, 219, 42);
+}
+
+#logo {
+
+    height: 30%;
+    width: 30%;
+
+}
+
+/*-- Carousel --*/
+
+#cuadro1 {
+
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100px;
+
+
+}
+
+#cuadro2 {
+
+    color: white;
+    height: 500px;
+    width: 500px;
+    text-align: right;
+    position: absolute;
+    top: 350px;
+    left: 900px;
+
+}
+
+.imagenescarousel {
+    height: 800px;
+    width: 100%;
+
+}
+
+#boton1 {
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+#boton2 {
+    background-color: #058c42;
+    color: white;
+    height: 40px;
+    width: 160px;
+    border: 1px solid #058c42;
+    border-radius: 5px;
+}
+
+
+/*-- Cards --*/
+.card {
+    margin: 40px;
+    margin-top: 10px;
+
+}
+
+.botoncard {
+
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 7px;
+    color: white;
+    width: 80px;
+
+}
+
+#botonjava {
+
+    background-color: #ffb703;
+    color: black;
+}
+
+#botonreact {
+    background-color: #219ebc;
+    width: 50px;
+    margin-left: 5px;
+
+}
+
+#botonnegoc {
+    background-color: gray;
+
+
+
+}
+
+#botonstar {
+    background-color: #c1121f;
+    margin-left: 5px;
+
+
+}
+
+/*-- Banner --*/
+
+#Honolulu {
+
+    height: 450px;
+    width: 800px;
+}
+
+#Banner {
+
+    background-color: #3f4349;
+    color: white;
+    height: 450px;
+    width: 800px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#Conoce {
+    background-color: #3f4349;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 2px;
+}
+
+#Banner2 {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+/*-- Form --*/
+
+#Formulario {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 20px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+input:focus {
+    background-color: rgb(165, 241, 235);
+    color: black;
+}
+
+textarea {
+    width: 635px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+
+textarea:focus {
+    background-color: rgb(165, 241, 235);
+    color: black;
+}
+
+#Enviar {
+    width: 650px;
+    height: 50px;
+    color: white;
+    background-color: #a7c957;
+    border-radius: 8px;
+
+}
+
+#subrayado {
+
+    text-decoration: underline dotted;
+}
+
+/*-- Footer --*/
+
+ul li {
+
+    display: inline;
+
+}
+
+.lista {
+    margin-left: 60px;
+
+
+}
+
+footer {
+    background-color: #013a63;
+    color: white;
+    height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
