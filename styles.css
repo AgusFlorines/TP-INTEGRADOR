@@ -21,6 +21,12 @@ h4 {
 
 /*-- Nav --*/
 
+ul li {
+
+    display: inline;
+
+}
+
 .navbar {
     height: 100px;
     background-color: #3f4349;
@@ -245,24 +251,18 @@ textarea:focus {
 
 /*-- Footer --*/
 
-ul li {
-
-    display: inline;
-
-}
-
-.lista {
-    margin-left: 60px;
-
-
-}
-
 footer {
     background-color: #013a63;
     color: white;
     height: 100px;
+    padding-top: 20px;
+
+}
+
+.col-md-1 {
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: end;
+    justify-content: center;
+
 }
