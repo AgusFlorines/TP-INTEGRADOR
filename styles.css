@@ -28,9 +28,7 @@ ul li {
 }
 
 .navbar {
-    height: 100px;
     background-color: #3f4349;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +70,7 @@ ul li {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
-    top: 100px;
+    top: 96px;
 
 
 }
@@ -97,10 +95,15 @@ ul li {
 
 #boton1 {
     background-color: transparent;
-    color: white;
     height: 40px;
     width: 160px;
     border-radius: 5px;
+}
+
+#boton1a {
+
+    text-decoration: none;
+    color: white;
 }
 
 #boton2 {
@@ -191,7 +194,6 @@ ul li {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
-
 }
 
 
@@ -202,6 +204,7 @@ ul li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 30%;
 
 }
 
@@ -209,6 +212,7 @@ form {
     margin-left: 150px;
     margin-right: 150px;
     padding-top: 20px;
+
 }
 
 input {
@@ -264,5 +268,124 @@ footer {
     display: flex;
     align-items: end;
     justify-content: center;
+
+}
+
+@media (max-width: 750px) {
+
+
+    ul li {
+        display: block;
+
+    }
+
+    .navbar {
+        padding: 0px;
+    }
+
+
+    #cuadro1 {
+
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 250px;
+        width: 100%;
+        position: absolute;
+        top: 280px;
+
+    }
+
+
+    #cuadro2 {
+
+        color: white;
+        height: 200px;
+        width: 100%;
+        text-align: start;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+
+    }
+
+
+    .card-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Banner {
+        height: 300px;
+        width: 100%;
+    }
+
+    #Banner2 {
+        display: inline;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #Honolulu {
+        height: 300px;
+        width: 100%;
+    }
+
+    #Formulario {
+        margin-left: 5%;
+
+    }
+
+    input {
+        width: 420px;
+
+    }
+
+    textarea {
+        width: 420px;
+
+    }
+
+    #Enviar {
+        width: 420px;
+
+    }
+
+    footer {
+        height: 200px;
+
+    }
+
+
+}
+
+@media (max-width: 450px) {
+
+    #cuadro1 {
+
+        height: 300px;
+
+
+    }
+
+    #Formulario {
+        margin-left: 15%;
+
+    }
+
+    input {
+        width: 250px;
+
+    }
+
+    textarea {
+        width: 250px;
+
+    }
+
+    #Enviar {
+        width: 250px;
+
+    }
+
+
 
 }
