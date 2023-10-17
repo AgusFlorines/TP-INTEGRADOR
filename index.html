@@ -42,7 +42,7 @@
                             <a class="nav-link active" aria-current="page" href="#Orador2">Conviértete en orador</a>
                         </li>
                         <li class="nav-item">
-                            <a id="Tickets" class="nav-link" href="#">Comprar tickets</a>
+                            <a id="Tickets" class="nav-link" href="#Ticket">Comprar tickets</a>
                         </li>
 
                     </ul>
@@ -189,6 +189,75 @@
     </div>
     
     <!-- FIN Form -->
+
+<!-- JS -->
+
+<div id="Tipos">
+<div id = "Azul">
+    <h5><b>Estudiante</b></h5>
+            <p>Tienen un descuento</p>
+            <p><b>80%</b></p>
+            <p>*Presentar documentación</p>
+
+</div>
+
+<div id = "Verde">
+    <h5><b>Trainee</b></h5>
+            <p >Tienen un descuento</p>
+            <p><b>50%</b></p>
+            <p>*Presentar documentación</p>
+</div>
+
+
+<div id = "Amarillo">
+    <h5><b>Junior</b></h5>
+            <p >Tienen un descuento</p>
+            <p><b>15%</b></p>
+            <p>*Presentar documentación</p>
+</div>
+</div>
+
+
+    <h4 id="Ticket">VENTA</h4>
+    <h2><b>VALOR DE TICKET $200</b></h2>
+
+    <div id="Venta">
+    <form class= "container" id="Caja">
+        <label for="nombre"></label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+        <label for="apellido"></label>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+        <br>
+        <label for="correo"></label>
+        <input type="email" name="correo" id="correo" placeholder="Correo" required>
+        <br>
+        
+        <div id="rotulos">
+        <label for="Cantidad">Cantidad</label>
+        <br>
+        <label for="Categoria">Categoria</label>
+        </div>
+
+       
+        <input type="text" name="Cantidad" id="Cantidad" placeholder="Cantidad" required>
+        
+        <select name="Categoria" id="Categoria">
+           
+            <option value="Estudiante">Estudiante</option>
+            <option value="Trainee">Trainee</option>
+            <option value="Junior">Junior</option>
+        </select>
+    
+
+        <!-- <div>Total a pagar: $</div>-->
+
+        <input type="reset" value="Borrar" id="Borrar" class="Botones">
+        <input type="submit" value="Resumen" id="Resumen" class="Botones">
+    </form>
+    </div>
+
+<!-- FIN JS -->
+
 
     <!-- Footer -->
     <footer>
