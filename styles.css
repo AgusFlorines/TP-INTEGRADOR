@@ -462,6 +462,15 @@ footer {
 
     }
 
+    #rotulos{
+        display: none;
+    }
+       
+    #valorInput{
+       
+        width: 350px;
+       
+    }
 
 }
 
@@ -494,6 +503,14 @@ footer {
 
     }
 
+    #Tipos{
 
+        flex-direction: column;
+    }
+    #valorInput{
+       
+        width: 250px;
+       
+    }
 
 }
