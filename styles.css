@@ -136,21 +136,25 @@ ul li {
 #botonjava {
     background-color: #ffb703;
     color: black;
+    border: 1px solid rgba(197, 195, 195, 0.623);
 }
 
 #botonreact {
     background-color: #219ebc;
     width: 50px;
     margin-left: 5px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
 }
 
 #botonnegoc {
     background-color: gray;
+    border: 1px solid rgba(197, 195, 195, 0.623);
 }
 
 #botonstar {
     background-color: #c1121f;
     margin-left: 5px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
 }
 
 /*-- Banner --*/
@@ -175,6 +179,7 @@ ul li {
     border-radius: 5px;
     width: 100px;
     padding: 2px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
 }
 
 #Banner2 {
@@ -207,6 +212,7 @@ input {
     height: 50px;
     margin: 10px;
     padding: 10px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
 }
 
 input:focus {
@@ -218,7 +224,8 @@ textarea {
     width: 635px;
     height: 80px;
     margin: 10px;
-    padding: 10px;
+    padding: 10px;    
+    border: 1px solid rgb(197, 195, 195);
 }
 
 textarea:focus {
@@ -232,6 +239,7 @@ textarea:focus {
     color: white;
     background-color: #a7c957;
     border-radius: 8px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
 
 }
 
@@ -335,11 +343,21 @@ border: 1px solid rgb(197, 195, 195);
 
 }
 .Botones{
-    width: 305px;
+    margin-left: 20px;
+    width: 300px;
     height: 50px;
     color: white;
-    background-color: #a7c957;
+    background-color: #90c90cd8;
     border-radius: 8px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+}
+
+#valorInput{
+    background-color: #68bcf8;
+    color : blue;
+    width: 600px;
+    height: auto;
+    margin: 30px;
 }
 
 

@@ -224,12 +224,12 @@
     <div id="Venta">
     <form class= "container" id="Caja">
         <label for="nombre"></label>
-        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+        <input type="text" name="nombre" id="nombre2" placeholder="Nombre" required>
         <label for="apellido"></label>
-        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+        <input type="text" name="apellido" id="apellido2" placeholder="Apellido" required>
         <br>
         <label for="correo"></label>
-        <input type="email" name="correo" id="correo" placeholder="Correo" required>
+        <input type="email" name="correo" id="correo2" placeholder="Correo" required>
         <br>
         
         <div id="rotulos">
@@ -239,20 +239,21 @@
         </div>
 
        
-        <input type="text" name="Cantidad" id="Cantidad" placeholder="Cantidad" required>
+        <input type="number" name="Cantidad" id="Cantidad" placeholder="Cantidad" required>
         
         <select name="Categoria" id="Categoria">
            
-            <option value="Estudiante">Estudiante</option>
-            <option value="Trainee">Trainee</option>
-            <option value="Junior">Junior</option>
+            <option id="Estudiante" value="Estudiante">Estudiante</option>
+            <option id="Trainee" value="Trainee">Trainee</option>
+            <option id="Junior" value="Junior">Junior</option>
         </select>
     
+<br>
+<label for="" id="valorInput"></label>
 
-        <!-- <div>Total a pagar: $</div>-->
-
-        <input type="reset" value="Borrar" id="Borrar" class="Botones">
-        <input type="submit" value="Resumen" id="Resumen" class="Botones">
+<br>
+        <button type="reset" id="Borrar" class="Botones">Borrar</button>
+        <button onclick= "ResumenFormulario()"  id="Resumen" class="Botones">Resumen</button>
     </form>
     </div>
 
@@ -277,6 +278,7 @@
     </footer>
     <!-- FIN Footer -->
 
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
