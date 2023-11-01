@@ -23,7 +23,7 @@ console.log(Descuento);
 Descuento = Cantidad * (valorTicket - valorTicket*0.5) 
 console.log(Descuento);
 } else if (Categoria == "Junior"){
-Descuento = Cantidad * (valorTicket - valorTicket*0.015)
+Descuento = Cantidad * (valorTicket - valorTicket*0.15)
 console.log(Descuento);
 }
 
@@ -54,3 +54,5 @@ function Borrar(){
     document.getElementById("Cantidad").value = '';
     document.getElementById("valorInput").textContent  = '';
 }
+
+Borrar()
